@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password: root
+  host: 127.0.0.1
+
+development:
+  <<: *default
+  database: interaje_academy_development
+
+test:
+  <<: *default
+  database: interaje_academy_test
+
+production:
+  <<: *default
+  database: interaje_academy_production
+  username: interaje_academy
+  password: <%= ENV['INTERAJE_ACADEMY_DATABASE_PASSWORD'] %>
