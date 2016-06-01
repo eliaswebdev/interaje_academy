@@ -1,25 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Sistema para cursos, professores e alunos do projeto Teresina Digital. 
+Oferecido em parceria com o Instituto Interaje e a Prefeitura Municipal de Teresina.
 
-Things you may want to cover:
+* Funcionalidades do sistema:
+	* Cadastro de Cursos
+	* Cadastro de Professores
+	* Cadastro de Turmas
+	* Cadastro de Alunos
+		* Gerenciamento de Trabalhos Realizados
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# interaje_academy
